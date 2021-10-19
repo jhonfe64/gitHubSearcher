@@ -1,5 +1,6 @@
-//gitHub token
-const token = "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";
+require('dotenv').config();
+
+const token = process.env.GITHUB_TOKEN
 
 //gitHub header for authorization
 const gitHubHeader = {
