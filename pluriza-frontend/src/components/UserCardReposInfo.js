@@ -4,9 +4,12 @@
 
 
 import React, {useContext} from 'react';
-import UserCardReposInfoElement from '../elements/UserCardReposInfoElement';
+import PropTypes from 'prop-types';
+
 import {SearchingBarContext} from '../context/SearchingBarContext';
-import CallToActionButton from '../elements/CallToActionButton'
+
+import CallToActionButton from '../elements/CallToActionButton';
+import UserCardReposInfoElement from '../elements/UserCardReposInfoElement';
 
 function UserCardReposInfo({userRepos}) {
 
@@ -36,5 +39,10 @@ function UserCardReposInfo({userRepos}) {
         </UserCardReposInfoElement>
     )
 }
+
+UserCardReposInfo.propTypes = {
+    userRepos: PropTypes.string.isRequired
+}
+
 
 export default UserCardReposInfo

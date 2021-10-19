@@ -26,7 +26,6 @@ ctrl.search = async (req, res) => {
 
     if(userName && searchType === "user"){
         const user = await fetch(`https://api.github.com/users/${userName}`,  gitHubHeader)
-        console.log(user)
         const data = await user.json();
         res.json(data);
 

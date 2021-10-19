@@ -3,13 +3,15 @@
 */
 
 import React, {useContext} from 'react';
+import PropTypes from 'prop-types';
+
 import {SearchingBarContext} from '../context/SearchingBarContext';
+
 import UserCardElement from '../elements/UserCardElement';
 import CallToActionButton from '../elements/CallToActionButton'
 
 function UserCardInfo({userInfo}) {
     const {searchingData} = useContext(SearchingBarContext);
-     
     return (
         userInfo.message !== 'Not Found' && userInfo.login !== undefined && searchingData && searchingData.userName.length > 3 && searchingData.searchType === "user" &&
         <UserCardElement key={searchingData.id}>
@@ -36,6 +38,11 @@ function UserCardInfo({userInfo}) {
         </UserCardElement>
     )
 }
+
+UserCardInfo.propTypes = {
+    userInfo: PropTypes.object.isRequired
+}
+
 
 export default UserCardInfo
 

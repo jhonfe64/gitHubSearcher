@@ -21,9 +21,9 @@ function SearchingBar() {
     const [searchTag, setSearchTag] = useState('user');
 
     //Contexto que envia la informacion del usuario despues de la consulta a la api
-    const {userInformation, updateUserInformation} = useContext(UserInfoContext);
+    const {updateUserInformation} = useContext(UserInfoContext);
     //contexto que envia el valor del input y dels elect para la busqueda enun objeto
-    const {searchingData, updateSearchingData} = useContext(SearchingBarContext);
+    const {updateSearchingData} = useContext(SearchingBarContext);
 
 
     useEffect(()=>{

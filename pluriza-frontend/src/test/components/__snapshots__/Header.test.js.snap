@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el compoenente <Header /> probar que el componente se rederize correctamente 1`] = `
+<styled.div
+  className="container"
+>
+  <img
+    alt="logo"
+    src="../images/logo.png"
+  />
+  <div
+    className="textContainer"
+  >
+    <h1>
+      GitHub Searcher
+    </h1>
+    <h3>
+      Search users or repositories below
+    </h3>
+  </div>
+</styled.div>
+`;

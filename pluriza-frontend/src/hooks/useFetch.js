@@ -31,6 +31,7 @@ const useFetch = (url, body, headers, inputValue, searchTag) => {
             fetching(url);
         }
     },[inputValue, searchTag]);
+    //console.log(state)
     return(state);
 }
 

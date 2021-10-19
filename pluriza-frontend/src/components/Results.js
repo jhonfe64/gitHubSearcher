@@ -5,6 +5,7 @@
 
 import {useContext} from 'react';
 
+
 import {UserInfoContext} from '../context/UserInfoContext';
 import {SearchingBarContext} from '../context/SearchingBarContext';
 
@@ -39,5 +40,6 @@ function Results() {
         </ResultsElement>
     )
 }
+
 
 export default Results
