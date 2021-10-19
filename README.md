@@ -15,6 +15,10 @@ Esta aplicaciPon permite buscar un usuario de github, ver su información de per
 
 - react
 - styledcomponents
+- enzyme
+- enzyme-to-json
+- react-hooks-testing-library
+
 
 
 ### Para clonar el repositorio
