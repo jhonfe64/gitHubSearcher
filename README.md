@@ -47,7 +47,7 @@ el frontend se encuentra en la carpeta pluriza-frontend
 
 ==> Para guardar caché
 
-Debe tener redis instalado en su computadora
+-Debe tener redis instalado en su computadora
 
 - Abra una terminal y ejecute redis =>  redis-server
 - En la consola estando en la carpeta plurizaApp escriba el comando redis-commander
