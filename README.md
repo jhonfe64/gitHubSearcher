@@ -23,7 +23,7 @@ Clone el repositorio git clone https://github.com/jhonfe64/gitHubSearcher.git
 Use npm i para instalar todas las dependencias
 
 
-## el frontend se encuentra en la carpeta pluriza-frontend
+# el frontend se encuentra en la carpeta pluriza-frontend
 
 
 ## Para correr el backend
